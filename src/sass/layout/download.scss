@@ -1,0 +1,42 @@
+.download{
+border-bottom: 1px solid $color-border;
+}
+
+.wrapper--download{
+text-align: center;
+padding: em(50) 0;
+
+  .btn--appstore{
+  margin: em(31.5) auto 0;
+  }
+}
+
+.download-header{
+margin-top: em(35);
+}
+
+.download-text{
+margin-top: em(27);
+font-size: rem(16);
+}
+
+.product-icon{
+content: 'H';
+width: em(80);
+height: em(80);
+display: block;
+background: $base-gradient;
+border-radius: em(20);
+position: relative;
+margin: 0 auto;
+box-shadow: 0px 10px 30px 0px rgba(223, 27, 61, 0.3);
+
+  &:before{
+  content: 'H';
+  color: #ffffff;
+  @include centerer;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+  font-size: em(40);
+  }
+}

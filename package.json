@@ -1,0 +1,27 @@
+{
+  "name": "HeyU",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "js-standard": "standard ./src/js/main.js --fix"
+  },
+  "author": "Krystian Witkowski",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "~3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "~2.6.0",
+    "gulp-cssmin": "~0.1.7",
+    "gulp-image": "^2.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "~2.3.1",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-uglify": "~1.5.3",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,18 @@
+.newsletter-email__input{
+background: rgb(248, 248, 248);
+border: none;
+font-size: rem(16);
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+border-radius: em(25);
+width:100%;
+color: $color-font;
+height:100%;
+padding: em(12.5) em(31);
+outline:0;
+transition: all 0.25s ease;
+
+  &:focus{
+  box-shadow: 0 0 10px 0px rgba(223, 27, 61, 0.3);
+  }
+}

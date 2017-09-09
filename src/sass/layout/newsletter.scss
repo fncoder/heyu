@@ -1,0 +1,22 @@
+.newsletter{
+border-bottom: 1px solid $color-border;
+}
+
+.wrapper--newsletter{
+padding: em(50) 0;
+text-align: center;
+}
+
+.newsletter-text{
+margin-top: em(27);
+font-size: rem(16);
+}
+
+.newsletter-email{
+margin-top: em(37);
+max-width: rem(571);
+
+  .btn--subscribe{
+  margin-top: em(12);
+  }
+}

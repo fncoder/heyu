@@ -1,0 +1,584 @@
+@media (min-width: 400px){
+.wrapper--main-header{
+font-size: rem(19.2); //32
+
+  .header-content__text{
+  font-size: rem(17.6);
+  }
+
+  .btn--download{
+  font-size: rem(13.2);
+  }
+}
+
+.wrapper--messages{
+font-size: rem(19.2);
+}
+
+.wrapper--testimonals{
+font-size: rem(19.2);
+}
+
+.wrapper--features{
+font-size: rem(19.2);
+
+  .features-box__header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+    .features-box__title{
+    font-size: rem(17.6);
+    }
+  }
+
+  .features-box__header:after{
+  display: block
+  }
+}
+
+.wrapper--newsletter{
+font-size: rem(19.2);
+
+  .newsletter-email{
+  position: relative;
+
+    .btn--subscribe{
+    position: absolute;
+    width:100%;
+    top:0;
+    right:0;
+    max-width: rem(180);
+    margin-top:0;
+    }
+  }
+}
+
+.wrapper--download{
+font-size: rem(19.2);
+
+  .btn--appstore{
+    &:before{
+    font-size: rem(43);
+    }
+
+    .appstore-title{
+      &:before{
+      font-size: rem(12);
+      }
+
+      &:after{
+      margin-top: rem(-3);
+      font-size: rem(20.4);
+      }
+    }
+  }
+}
+
+.wrapper--languages{
+font-size: rem(19.2);
+}
+
+}
+
+@media (min-width: 600px){
+.toggle-menu{
+height: rem(206.5);
+}
+
+.menu-list{
+  &__item{
+  font-size: rem(18);
+  }
+}
+.wrapper--main-header{
+font-size: rem(22.4);
+
+  .header-content__text{
+  font-size: rem(19.2);
+  }
+
+  .btn--download{
+  font-size: rem(14.4);
+  }
+}
+
+.wrapper--messages{
+font-size: rem(22.4);
+
+  .messages-text{
+  font-size: rem(18);
+  }
+}
+
+.wrapper--testimonals{
+font-size: rem(22.4);
+
+  .testimonals-box__title{
+  font-size: rem(18);
+  }
+
+  .testimonals-box__text{
+  font-size: rem(18);
+
+    &:hover{
+    transform: translateY(rem(-30));
+    }
+  }
+
+  .visit-page{
+  font-size: rem(18);
+  }
+}
+
+.wrapper--features{
+font-size: rem(22.4);
+
+  .features-box__header{
+    .features-box__title{
+      font-size: rem(19.2);
+    }
+  }
+}
+
+.wrapper--newsletter{
+font-size: rem(22.4);
+
+  .newsletter-text{
+  font-size: rem(18);
+  }
+
+  .newsletter-email{
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .newsletter-email__input{
+  font-size: rem(18);
+  }
+
+  .btn--subscribe{
+  font-size: rem(18);
+  }
+}
+
+.wrapper--download{
+font-size: rem(22.4);
+
+  .download-text{
+  font-size: rem(18);
+  }
+
+  .btn--appstore{
+    &:before{
+    font-size: rem(46);
+    }
+
+    .appstore-title{
+      &:after{
+      font-size: rem(22.8);
+      }
+    }
+  }
+}
+
+.wrapper--languages{
+font-size: rem(22.4);
+
+  .languages-list{
+  font-size: rem(18);
+  }
+}
+
+}
+
+@media (min-width: 800px){
+.wrapper--main-header{
+font-size: rem(25.6);
+
+  .header-content__text{
+  font-size: rem(20.8);
+  }
+
+  .btn--download{
+  font-size: rem(15.6);
+  }
+}
+
+.wrapper--messages{
+font-size: rem(25.6);
+}
+
+.wrapper--testimonals{
+font-size: rem(25.6);
+
+  .testimonals-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+    .testimonals-box{
+    width: 46%;
+    }
+  }
+
+  .testimonals-box:nth-child(1n+2){
+  margin-top:0;
+  }
+
+  .testimonals-box:nth-child(3){
+  margin-top: em(32);
+  }
+}
+
+.wrapper--features{
+font-size: rem(25.6);
+position: relative;
+
+  .features-box{
+  max-width: rem(255);
+
+    .features-box__title{
+      font-size: rem(20.8);
+    }
+  }
+
+  .video{
+  display:block;
+  position: absolute;
+  top:50%;
+  right:0;
+  transform: translateY(-50%);
+  }
+}
+
+.wrapper--newsletter{
+font-size: rem(25.6);
+}
+
+.wrapper--download{
+font-size: rem(25.6);
+
+  .btn--appstore{
+    &:before{
+    font-size: rem(49);
+    }
+
+    .appstore-title{
+      &:after{
+      font-size: rem(25.2);
+      }
+    }
+  }
+}
+
+.wrapper--languages{
+font-size: rem(25.6);
+}
+
+}
+
+@media (min-width: 1000px){
+.wrapper--main-header{
+font-size: rem(28.8);
+padding-bottom:0;
+
+  .hamburger{
+  display:none;
+  }
+
+  .menu{
+  width: initial;
+  background: none;
+
+    &-list{
+    display: flex;
+    flex-direction: row;
+    height:initial;
+    overflow: initial;
+    }
+
+    &-list__item:nth-child(1n+2){
+    margin-left: rem(64);
+    }
+  }
+
+  .header-content__description{
+  max-width: rem(548);
+  width:100%;
+
+    .header-content__title{
+    text-align: left;
+    }
+
+    .header-content__text{
+    font-size: rem(22.4);
+    text-align: left;
+    }
+  }
+
+  .btn--download{
+  margin-left: 0;
+  font-size: rem(16.8);
+  }
+
+  .header-content{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+    .header-content__mockup{
+    display:block;
+    }
+  }
+}
+
+.wrapper--messages{
+font-size: rem(28.8);
+padding: 0 0 em(120);
+
+  .messages-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+
+  .messages-box1{
+    .messages-box__content{
+    order:2;
+    width:47%;
+    max-width: rem(557);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .messages-mockup__img:nth-child(2){
+    position: absolute;
+    top:em(42.5);
+    left: em(85);
+    }
+  }
+
+  .messages-box2{
+  margin-top:0;
+
+    .messages-box__content{
+    order:1;
+    width:50%;
+    max-width: rem(557); //557
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .messages-mockup__img:nth-child(2){
+    position: absolute;
+    top:em(42.5);
+    right: em(85);
+    }
+  }
+
+  .messages-mockup{
+  display: block;
+  position: relative;
+  order:1;
+  width:30%;
+  }
+}
+
+.messages::before{
+content: '';
+position: absolute;
+top:em(-230);
+left:0;
+width:120%;
+height: em(1000);
+background: #ffffff;
+transform: rotate(-6deg);
+}
+
+.wrapper--testimonals{
+font-size: rem(28.8);
+
+  .testimonals-content{
+    .testimonals-box{
+    width: 30.3333333333%;
+
+      &:nth-child(3){
+      margin-top:0;
+      }
+    }
+  }
+}
+
+.wrapper--features{
+font-size: rem(28.8);
+
+  .features-box__header{
+    .features-box__title{
+    font-size: rem(22.4);
+    }
+  }
+}
+
+.wrapper--newsletter{
+font-size: rem(28.8);
+}
+
+.wrapper--download{
+font-size: rem(28.8);
+
+  .btn--appstore{
+    &:before{
+    font-size: rem(52);
+    }
+
+    .appstore-title{
+      &:after{
+      font-size: rem(27.6);
+      }
+    }
+  }
+}
+
+.wrapper--languages{
+font-size: rem(28.8);
+
+  .nav-bottom{
+  display: block;
+  }
+}
+
+}
+
+@media (min-width: 1200px){
+.wrapper--main-header{
+font-size: rem(32);
+
+  .header-content__text{
+  font-size: rem(24);
+  }
+
+  .btn--download{
+  font-size: rem(18);
+  }
+}
+
+.wrapper--messages{
+font-size: rem(32);
+}
+
+.wrapper--testimonals{
+padding: em(47.5) 0 em(121);
+font-size: rem(32);
+
+  .testimonals-content{
+  margin-top: em(69);
+  }
+}
+
+.wrapper--features{
+padding: em(64) 0 em(56);
+font-size: rem(32);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+  .features-content:nth-child(1){
+    .features-box__header{
+    position: relative;
+    }
+
+    .features-box__header:after{
+    position: absolute;
+    right: rem(-80);
+    }
+
+    .features-box{
+    text-align: right;
+    }
+  }
+
+  .features-content:nth-child(3){
+    .features-box__header{
+    position: relative;
+    justify-content: flex-start;
+    }
+
+    .features-box__header::after{
+    position: absolute;
+    left:rem(-80);
+    order:1;
+    margin-left:0;
+    }
+
+    .features-box__title{
+    order:2;
+    }
+  }
+
+  .video{
+  top:0;
+  left: 50%;
+  right: initial;
+  transform: translateX(-50%);
+  width: rem(456);
+  top: rem(-89);
+  margin-left: rem(13);
+
+    &__img{
+    width: 100%;
+    }
+  }
+
+  .features-box__header{
+    justify-content: flex-end;
+
+    .features-box__title{
+      font-size: rem(24);
+    }
+  }
+
+  .features-box3{
+    .features-box__header:after{
+    content: '\f3f5';
+    font-family: 'Ionicons';
+    color: #ffffff;
+    font-size: em(25);
+    margin-left: em(18);
+    }
+  }
+
+  .features-box3{
+  margin-top: 0;
+  }
+}
+
+.wrapper--newsletter{
+font-size: rem(32);
+padding: em(120.5) 0 em(73.5);
+}
+
+.wrapper--download{
+font-size: rem(32);
+padding: em(51) 0 em(74);
+
+  .btn--appstore{
+    &:before{
+    font-size: rem(55);
+    }
+
+    .appstore-title{
+      &:after{
+      font-size: rem(30);
+      }
+    }
+  }
+}
+
+.wrapper--languages{
+font-size: rem(32);
+}
+
+}

@@ -1,0 +1,56 @@
+h1,h2,h3,h4,h5,h6{
+color: $color-heading;
+font-weight: 900;
+line-height: 1.2;
+}
+
+h1{
+font-size:em(36);
+}
+
+h2{
+font-size:em(30);
+}
+
+h3{
+font-size: em(12);
+}
+
+img{
+display:block;
+max-width:100%;
+}
+
+nav{
+text-transform: uppercase;
+}
+
+a{
+text-decoration: none;
+color: $color-heading;
+outline: 0;
+
+  &:active{
+  text-decoration: none !important;
+  }
+}
+
+p{
+color: $color-font;
+font-size:rem(18);
+line-height: 1.77;
+}
+
+select{
+appearance: none;
+text-indent: 1px;
+text-overflow: '';
+}
+
+.text-bold{
+font-weight: 900;
+}
+
+.text-italic{
+font-style: italic;
+}

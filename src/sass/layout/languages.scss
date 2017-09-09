@@ -1,0 +1,38 @@
+.wrapper--languages{
+padding: em(13.5) 0 em(12.5);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.icon-arrow{
+position: relative;
+max-width: rem(200);
+width:100%;
+
+  &:after{
+  content: '\f3d0';
+  font-family: 'Ionicons';
+  font-size: rem(20);
+  position: absolute;
+  right: em(20);
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 600;
+  color: $color-heading;
+  }
+
+  .languages-list{
+  background: rgb(248,248,248);
+  border:none;
+  font-size: rem(16);
+  color: $color-heading;
+  text-transform: uppercase;
+  border-radius: em(25);
+  padding: 0 em(27.5) 0;
+  width:100%;
+  cursor: pointer;
+  height: em(44.5);
+  }
+}

@@ -1,0 +1,88 @@
+.btn{
+background: #ffffff;
+border:none;
+border-radius: em(25);
+font-weight:700;
+font-size: em(9);
+display:block;
+cursor: pointer;
+outline: 0;
+transition: all 0.25s ease;
+
+  &::-moz-focus-inner{
+  border:0;
+  }
+}
+
+
+.btn--download{
+max-width: em(224);
+width:100%;
+margin: em(53) auto 0;
+font-size: rem(12);
+height: em(45);
+
+  &:focus{
+  box-shadow: 0 0 10px 0px rgba(255,255,255,0.8);
+  }
+
+  .text-gradient{
+  background: $base-gradient;
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  }
+}
+
+.btn--subscribe{
+color: #ffffff;
+background: $base-gradient;
+width:100%;
+box-shadow: 0px 10px 30px 0px rgba(223, 27, 61, 0.3);
+font-size: rem(16);
+padding: em(12.5) 0;
+
+  &:focus{
+  box-shadow: 0 0 10px 0px rgba(54,54,54,0.8);
+  }
+}
+
+.btn--appstore{
+background: #363636;
+border-radius: em(3);
+color: #ffffff;
+font-size: em(24);
+font-weight: 400;
+display: flex;
+flex-direction: row;
+padding: em(0) em(5);
+
+  &:focus{
+  box-shadow: 0 0 10px 0px rgba(54,54,54,0.8);
+  }
+
+  &:before{
+  content: '\f1fa';
+  font-family: 'Ionicons';
+  font-size: rem(40);
+  }
+
+  .appstore-title{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: em(4);
+
+    &:before{
+    content: 'Available on the iPhone';
+    font-size: rem(11);
+    margin-top: em(10);
+    }
+
+    &:after{
+    content: 'App Store';
+    margin-top: rem(-1);
+    font-size: rem(18);
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.dot{
+background: $base-gradient;
+color:transparent;
+-webkit-background-clip: text;
+background-clip: text;
+padding: 0 em(1);
+}

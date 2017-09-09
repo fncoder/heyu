@@ -1,0 +1,22 @@
+.messages{
+position: relative;
+border-bottom: 1px solid $color-border;
+}
+
+.wrapper--messages{
+position: relative;
+padding: em(50) 0;
+}
+
+.messages-text{
+font-size: rem(16);
+margin-top: em(25);
+}
+
+.messages-box2{
+margin-top: em(32);
+}
+
+.messages-mockup{
+display:none;
+}

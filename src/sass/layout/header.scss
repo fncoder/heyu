@@ -1,0 +1,59 @@
+.main-header{
+background: $base-gradient;
+position: relative;
+}
+
+.wrapper--main-header{
+padding-bottom: em(50);
+z-index:1;
+position: relative;
+}
+
+.header-top{
+transition: all 0.5s ease;
+position: fixed;
+left:0;
+top:0;
+width:100%;
+padding: em(20.5) 0;
+}
+
+.wrapper--header-top{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.logo__name{
+color: #ffffff;
+font-size: em(25);
+}
+
+.header-content{
+color: #ffffff;
+width:90%;
+margin: 0 auto;
+padding-top: em(93.5);
+
+  &__description{
+  margin-top: em(55.5);
+  }
+
+  &__title{
+  color: #ffffff;
+  text-align: center;
+  }
+
+  &__text{
+  color: #ffffff;
+  font-size: rem(16);
+  margin-top: em(21.5);
+  text-align: center;
+  }
+
+  &__mockup{
+  display:none;
+  }
+}
