@@ -505,10 +505,6 @@ body {
         transition: all 0.2s ease; }
       .menu-list__item .menu-list__item-link:hover:before {
         width: 100%; }
-      .menu-list__item .menu-list__item-link:focus {
-        text-decoration: underline;
-        border: 5px solid red;
-        background: yellow; }
 
 .nav-bottom {
   display: none; }

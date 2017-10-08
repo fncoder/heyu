@@ -36,12 +36,6 @@ transition: all 0.5s ease;
         width:100%;
         }
       }
-
-      &:focus{
-      text-decoration: underline;
-      border: 5px solid red;
-      background: yellow;
-      }
     }
   }
 }

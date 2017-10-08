@@ -18,4 +18,30 @@
   }
 
   hamburger.addEventListener('click', hamburgerMenu)
+
+  $(document).ready(()=>{
+    $('.menu-list__item-link').click(function (e) {
+      e.preventDefault();
+      if(this.hash === '#about'){
+        $('html, body').animate({
+          scrollTop: $(this.hash).offset().top - 130
+        }, 1000)
+      }
+      else if(this.hash === '#faq'){
+        $('html, body').animate({
+          scrollTop: $(this.hash).offset().top - 90
+        }, 1000)
+      }
+      else if(this.hash === '#support'){
+        $('html, body').animate({
+          scrollTop: $(this.hash).offset().top - 89
+        }, 1000)
+      }
+      else if(this.hash === '#blog'){
+        $('html, body').animate({
+          scrollTop: $(this.hash).offset().top - 90
+        }, 1000)
+      }
+    })
+  })
 })()
